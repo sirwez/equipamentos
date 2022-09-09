@@ -9,20 +9,21 @@
     <input type="hidden" id="redirect_to" name="redirect_to" value={{URL::previous()}}>
     <div>
     <label for="tipo">Tipo Equipamento</label>
-    <input type="text" id="tipo" name="tipo" value="{{$eqp->tipo}}" disabled>
+    <input class="form-control form-control-sm" type="text" id="tipo" name="tipo" value="{{$eqp->tipo}}" disabled>
     </div>
     <div>
     <label for="modelo">Modelo Equipamento</label>
-    <input type="text" id="modelo" name="modelo" value="{{$eqp->modelo}}" disabled>
+    <input class="form-control form-control-sm" type="text" id="modelo" name="modelo" value="{{$eqp->modelo}}" disabled>
     </div>
     <div>
     <label for="fabricante">Fabricante Equipamento</label>
-    <input type="text" id="fabricante" name="fabricante" value="{{$eqp->fabricante}}" disabled>
+    <input class="form-control form-control-sm" type="text" id="fabricante" name="fabricante" value="{{$eqp->fabricante}}" disabled>
     </div>
+    <br>
     <div class="alert alert-danger" role="alert">Esta operação não poderá ser desfeita! Confirma a exclusão do equipamento?</div>
     <div class="form-group">
-      <input type="submit" name="delete_eqp" value="Deletar equipamento">
-      <input type="submit" name="cancel" value="Cancelar">
+      <input class="btn btn-danger" type="submit" name="delete_eqp" value="Deletar equipamento">
+      <input class="btn btn-primary" type="submit" name="cancel" value="Cancelar">
       </div>
   </div>
   </form>

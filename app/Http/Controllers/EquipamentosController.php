@@ -44,7 +44,7 @@ class EquipamentosController extends Controller
         if (! $request->has('cancel') ){
             $dados = $request->all();
             Equipamento::create($dados);
-            $request->session()->flash('message', 'Equipamento cadastrado com sucesso');
+            $request->session()->flash('message', 'Cadastrado com sucesso');
         }
         else
         { 
@@ -89,7 +89,7 @@ class EquipamentosController extends Controller
         $equipamento->modelo = $request->input('modelo');
         $equipamento->fabricante = $request->input('fabricante');
         $equipamento->update();
-        $request->session()->flash('message', 'Equipamento atualizado com sucesso !');
+        $request->session()->flash('message', 'Atualizado com sucesso !');
     }
     else
     { 
@@ -109,7 +109,7 @@ class EquipamentosController extends Controller
         if (! $request->has('cancel') ){
             $strEqp = $equipamento->tipo . ', modelo: ' . $equipamento->modelo . ', fabricante:' . $equipamento->fabricante . '}';
             $equipamento->delete();
-            $request->session()->flash('message', '{equipamento: ' . $strEqp . ' excluído com sucesso !');
+            $request->session()->flash('message', 'Excluído com sucesso !');
         }
         else
         { 
