@@ -21,7 +21,7 @@ npm install</code></pre>
 <ol>
   <li>Acesse o sistema em <code>http://localhost:8000</code></li>
   <li>Faça login com um usuário válido ou crie uma nova conta</li>
-  <li>Acesse as funcionalidades de cadastro, visualização, edição e exclusão de empresas</li>
+  <li>Acesse as funcionalidades de cadastro, visualização, edição e exclusão de equipamentos</li>
 </ol>
 <h2>Contribuição</h2>
 <p>O projeto está aberto a contribuições. Se você encontrou um bug ou deseja implementar alguma funcionalidade nova, sinta-se livre para criar uma nova issue ou enviar um pull request.</p>
