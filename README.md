@@ -17,7 +17,7 @@ npm install</code></pre>
   </li>
 </ol>
 <h2>Utilização</h2>
-<p>O sistema permite cadastrar, visualizar, editar e excluir empresas. Para acessar as funcionalidades, é necessário fazer login com um usuário válido.</p>
+<p>O sistema permite cadastrar, visualizar, editar e excluir equipamentos. Para acessar as funcionalidades, é necessário fazer login com um usuário válido.</p>
 <ol>
   <li>Acesse o sistema em <code>http://localhost:8000</code></li>
   <li>Faça login com um usuário válido ou crie uma nova conta</li>
